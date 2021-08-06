@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FinanceApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210805161714_AddStocksToDatabase")]
+    [Migration("20210805220710_AddStocksToDatabase")]
     partial class AddStocksToDatabase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
